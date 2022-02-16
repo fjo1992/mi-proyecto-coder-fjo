@@ -1,0 +1,1047 @@
+@media all and (max-width: 459px){
+    *{ margin: 0;
+        padding: 0; }
+     
+    
+    // velocidad de movimiento entre secciones
+    html{
+            scroll-behavior: smooth; 
+        }
+    
+    // estilos logo
+    .logo{
+            margin-left:120px;
+            margin-right: 150px;
+            margin-top: 10px;
+            width: 40%;
+            
+     }
+     
+    
+    .logo:hover{
+            transform: skew(20deg, 10deg);
+     }
+    
+     // estilos body
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    
+    // estilos secciones: color de fondo
+    header, main, section, footer {
+    background-image: linear-gradient(to right, rgb(177, 174, 174), rgb(107, 107, 107) , #3a3a3a);
+    }
+    
+    
+    // grid body
+    .bigbox {
+        width: 100%;
+        height: auto;
+        /* background-color: silver; */
+        display: grid;
+    }
+    
+    // grid secciones en general
+    .box {
+        min-width: 100px;
+        min-height: 100px;
+        background-color: brown;
+        /* border: 5px solid gray; */
+    }
+    
+    // grid header
+    .box1 {
+        grid-row: 1/3;
+        grid-column: 1/1;
+        /* background-color: green; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    h1{
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+        /* margin-right: 30px; */
+        border: solid 3px silver;
+        color: silver;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    // grid botonera
+
+    .box2 {
+        grid-row: 3/4;
+        grid-column: 1/1;
+        /* background-color: turquoise; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+     
+    // estilos botonera
+
+    .estiloBotoneraPrincipal {
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 15px;}
+    
+     
+    .claseBotones {
+        text-decoration: none;
+        font-size: 10px;  
+        padding: 5px; 
+        color: silver;
+        list-style-type: none;        
+    }
+    
+    #botoneraprincipal ul li a {
+        text-decoration: none;
+    }
+    
+    .claseBotonesHover:hover {background-color: silver;
+        color: grey;
+         }
+     
+     .claseSublista1 {
+            position: absolute;
+            display: none;
+    }
+    .claseSublista2 {
+             display: block;
+             padding: 5px 5px;}
+    .claseSublista3 {   
+               font-size: 10px;
+    }
+    #botoneraprincipal ul li:hover ul {
+                  display:block;
+                  
+    }     
+    
+    // grid seccion 3
+
+    .box3 {
+        grid-row: 4/7;
+        grid-column: 1/1;
+        /* background-color: fuchsia; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .claseBox3SeccionContactoServicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items: center; */
+        padding: 30px;
+    }
+    
+    // grid seccion 4
+    
+    .box4 {
+        grid-row: 7/12;
+        grid-column: 1/1;
+        /* background-color: hotpink; */
+        /* border: 5px solid gray; */
+        padding: 5px;
+    }
+    
+    // estilos en seccion servicios
+    
+    .claseBox4SeccionContactoServicios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 5px;
+        color: rgb(94, 94, 94);
+    
+    }
+    
+    // estilos video
+
+    video {
+        display: none;
+    }
+    
+    // estilos clase caja en contactos y servicios
+    .caja{
+        border: rgb(111, 111, 112) 5px solid;
+        padding: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(187, 187, 187); 
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    // estilos formulario
+    
+    fieldset {
+        padding: 30px;
+    }
+
+    legend {
+        font-size: 20px;
+        color: rgb(41, 41, 41)
+    }
+
+    h4 {
+        font-size: 10px;
+        color: rgb(41, 41, 41)
+    }
+
+    
+    form {
+        color: rgb(41, 41, 41);
+    }
+        
+    // estilos parrafo
+
+    .ClaseParrafo  { font-size: 20px;
+        font-family: tahoma;
+        color: rgb(85, 83, 83);  } 
+    
+    h2 { font-size: 30px;
+        color: rgb(41, 41, 41);}
+    
+    // estilos seccion 5
+
+    .box5 {
+        grid-row: 12/13;
+        grid-column: 1/1;
+        /* background-color: darkgoldenrod; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    
+    // estilos botonera redes sociales
+
+    .claseLista2 {list-style-type: none;
+    }
+    
+    // estilos carrusel
+        
+    .carousel  {
+        width: 100%;
+    }
+
+
+}
+
+/* fin @media all and (max-width: 599px) */
+
+@media all and (min-width: 460px) and (max-width: 599px) {
+
+*{ margin: 0;
+    padding: 0; }
+ 
+html{
+        scroll-behavior: smooth;
+    }
+
+.logo{
+        margin-left:30px;
+        margin-top: 10px;
+        width: 70%;
+ }
+
+.logo:hover{
+        transform: skew(20deg, 10deg);
+ }
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header, main, section, footer {
+background-image: linear-gradient(to right, rgb(177, 174, 174), rgb(107, 107, 107) , #3a3a3a);
+}
+
+
+
+.bigbox {
+    width: 100%;
+    height: auto;
+    /* background-color: silver; */
+    display: grid;
+}
+
+.box {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: brown;
+    /* border: 5px solid gray; */
+}
+
+.box1 {
+    grid-row: 1/3;
+    grid-column: 1/1;
+    /* background-color: green; */
+    /* border: 5px solid gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-right: 30px;
+    border: solid 3px silver;
+    color: silver;
+    padding: 5px;
+}
+
+
+.box2 {
+    grid-row: 3/4;
+    grid-column: 1/1;
+    /* background-color: turquoise; */
+    /* border: 5px solid gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.estiloBotoneraPrincipal {
+    display: inline-block;
+    margin-right: 15px;
+     margin-left: 15px;
+} 
+
+ 
+.claseBotones {
+    text-decoration: none;
+    font-size: 15px;  
+    padding: 5px; 
+    color: silver;
+    list-style-type: none;        
+}
+
+#botoneraprincipal ul li a {
+    text-decoration: none;
+}
+
+.claseBotonesHover:hover {background-color: silver;
+    color: grey;
+     }
+ 
+ .claseSublista1 {
+        position: absolute;
+        display: none;
+}
+.claseSublista2 {
+         display: block;
+         padding: 5px 5px;}
+.claseSublista3 {   
+           font-size: 10px;
+}
+#botoneraprincipal ul li:hover ul {
+              display:block;
+              
+}     
+
+
+.box3 {
+    grid-row: 4/7;
+    grid-column: 1/1;
+    /* background-color: fuchsia; */
+    /* border: 5px solid gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.claseBox3SeccionContactoServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 30px;
+}
+
+.box4 {
+    grid-row: 7/12;
+    grid-column: 1/1;
+    /* background-color: hotpink; */
+    /* border: 5px solid gray; */
+    padding: 5px;
+}
+
+
+.claseBox4SeccionContactoServicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5px;
+    color: rgb(94, 94, 94);
+
+}
+
+video {
+    display: none;
+}
+.caja{
+    border: rgb(111, 111, 112) 5px solid;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(187, 187, 187); 
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+fieldset {
+    padding: 30px;
+}
+legend {
+    font-size: 20px;
+    color: rgb(41, 41, 41)
+}
+
+form {
+    color: rgb(41, 41, 41);
+}
+ h4 {
+    color: rgb(41, 41, 41);
+
+    font-size: 10px;
+}
+
+.ClaseParrafo  { font-size: 20px;
+    font-family: tahoma;
+    color: rgb(85, 83, 83);  } 
+
+h2 { font-size: 30px;
+    color: rgb(41, 41, 41);}
+
+.box5 {
+    grid-row: 12/13;
+    grid-column: 1/1;
+    /* background-color: darkgoldenrod; */
+    /* border: 5px solid gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+.claseLista2 {list-style-type: none;
+}
+
+    
+.carousel  {
+    width: 100%;
+}
+
+}
+
+/* fin @media all and (max-width: 599px) */
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    *{ margin: 0;
+        padding: 0; }
+     
+    html{
+            scroll-behavior: smooth;
+        }
+    
+    .logo{
+            margin-left:30px;
+            margin-top: 10px;
+            width: 80%;
+     }
+    
+    .logo:hover{
+            transform: skew(20deg, 10deg);
+     }
+    
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    
+    header, main, section, footer {
+    background-image: linear-gradient(to right, rgb(177, 174, 174), rgb(107, 107, 107) , #3a3a3a);
+    }
+    
+    
+    
+    .bigbox {
+        width: 100%;
+        height: auto;
+        /* background-color: silver; */
+        display: grid;
+    }
+    
+    .box {
+        min-width: 100px;
+        min-height: 100px;
+        background-color: brown;
+        /* border: 5px solid gray; */
+    }
+    
+    .box1 {
+        grid-row: 1/3;
+        grid-column: 1/2;
+        /* background-color: green; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    h1{
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+        margin-right: 30px;
+        border: solid 3px silver;
+        color: silver;
+        padding: 5px;
+    }
+    
+    
+    .box2 {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        /* background-color: turquoise; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .estiloBotoneraPrincipal {
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 15px;}
+    
+     
+    .claseBotones {
+        text-decoration: none;
+        font-size: 20px;  
+        padding: 5px; 
+        color: silver;
+        list-style-type: none;        
+    }
+    
+    #botoneraprincipal ul li a {
+        text-decoration: none;
+    }
+    
+    .claseBotonesHover:hover {background-color: silver;
+        color: grey;
+         }
+     
+     .claseSublista1 {
+            position: absolute;
+            display: none;
+    }
+    .claseSublista2 {
+             display: block;
+             padding: 5px 5px;}
+    .claseSublista3 {   
+               font-size: 15px;
+    }
+    #botoneraprincipal ul li:hover ul {
+                  display:block;
+                  
+    }     
+    
+    
+    .box3 {
+        grid-row: 4/7;
+        grid-column: 1/2;
+        /* background-color: fuchsia; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .claseBox3SeccionContactoServicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items: center; */
+        padding: 30px;
+    }
+    
+    .box4 {
+        grid-row: 7/12;
+        grid-column: 1/2;
+        /* background-color: hotpink; */
+        /* border: 5px solid gray; */
+        padding: 5px;
+    }
+    
+    
+    .claseBox4SeccionContactoServicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+        color: rgb(94, 94, 94);
+    
+    }
+    
+    video {
+        width: 100%;
+    }
+    
+    .caja{
+        border: rgb(111, 111, 112) 5px solid;
+        padding: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(187, 187, 187); 
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+   
+    legend {
+        color: rgb(41, 41, 41);
+    } 
+    fieldset {
+        padding: 30px;
+    }
+    
+    
+    form {
+        color: rgb(41, 41, 41);
+    }
+     h4 {
+        color: rgb(41, 41, 41);
+    }
+    .ClaseParrafo  { font-size: 20px;
+        font-family: tahoma;
+        color: rgb(85, 83, 83);  } 
+    
+    h2 { font-size: 30px;
+        color: rgb(41, 41, 41);}
+    
+    .box5 {
+        grid-row: 12/13;
+        grid-column: 1/2;
+        /* background-color: darkgoldenrod; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    
+    
+    .claseLista2 {list-style-type: none;
+    }
+        
+    .carousel  {
+        width: 100%;
+    }
+    
+    
+}
+
+/* fin @media all and (min-width: 600px) and (max-width: 1023px) */
+
+@media all and (min-width: 1023px){
+    
+    *{ margin: 0;
+        padding: 0; }
+     
+    html{
+            scroll-behavior: smooth;
+        }
+    
+    .logo{
+            margin-left:30px;
+            margin-top: 10px;
+            
+     }
+    
+    .logo:hover{
+            transform: skew(20deg, 10deg);
+     }
+    
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    
+    header, main, section, footer {
+    background-image: linear-gradient(to right, rgb(177, 174, 174), rgb(107, 107, 107) , #3a3a3a);
+    }
+    
+    
+    
+    .bigbox {
+        width: 100%;
+        height: auto;
+        /* background-color: silver; */
+        display: grid;
+    }
+    
+    .box {
+        min-width: 100px;
+        min-height: 100px;
+        background-color: brown;
+        /* border: 5px solid gray; */
+    }
+    
+    .box1 {
+        grid-row: 1/3;
+        grid-column: 1/4;
+        /* background-color: green; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    h1{
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+        margin-right: 30px;
+        border: solid 3px silver;
+        color: silver;
+        padding: 5px;
+    }
+    
+    
+    .box2 {
+        grid-row: 3/4;
+        grid-column: 1/4;
+        /* background-color: turquoise; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .estiloBotoneraPrincipal {
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 15px;}
+    
+     
+    .claseBotones {
+        text-decoration: none;
+        font-size: 25px;  
+        padding: 5px; 
+        color: silver;
+        list-style-type: none;        
+    }
+    
+    #botoneraprincipal ul li a {
+        text-decoration: none;
+    }
+    
+    .claseBotonesHover:hover {background-color: silver;
+        color: grey;
+         }
+     
+     .claseSublista1 {
+            position: absolute;
+            display: none;
+    }
+    .claseSublista2 {
+             display: block;
+             padding: 5px 5px;}
+    .claseSublista3 {   
+               font-size: 20px;
+    }
+    #botoneraprincipal ul li:hover ul {
+                  display:block;
+                  
+    }     
+    
+    
+    .box3 {
+        grid-row: 4/7;
+        grid-column: 1/4;
+        /* background-color: fuchsia; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .claseBox3SeccionContactoServicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items: center; */
+        padding: 30px;
+    }
+    
+    .box4 {
+        grid-row: 7/12;
+        grid-column: 1/4;
+        /* background-color: hotpink; */
+        /* border: 5px solid gray; */
+        padding: 5px;
+    }
+    
+    
+    .claseBox4SeccionContactoServicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+        color: rgb(94, 94, 94);
+    
+    }
+    
+    video {
+        width: 60%;
+    }
+    
+    .caja{
+        border: rgb(41, 41, 41) 5px solid;
+        padding: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(187, 187, 187); 
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .caja:hover{ 
+        transform: scale(2,1);
+
+    }
+    
+   
+    legend {
+        color: rgb(41, 41, 41);
+    }
+    fieldset {
+        padding: 30px;
+    }
+
+    form {
+        color: rgb(41, 41, 41);
+    }
+     h4 {
+        color: rgb(41, 41, 41);
+    }
+
+    .ClaseParrafo  { font-size: 20px;
+        font-family: tahoma;
+        color: rgb(85, 83, 83);  }
+    
+    h2 { font-size: 30px;
+    color: rgb(83, 83, 83);}
+
+   
+    
+    .box5 {
+        grid-row: 12/13;
+        grid-column: 1/4;
+        /* background-color: darkgoldenrod; */
+        /* border: 5px solid gray; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    
+    
+    .claseLista2 {list-style-type: none;
+    }
+    
+    .carousel  {
+        width: 100%;
+            }
+
+// COMIENZO BEM
+
+  
+.cabecera__titulo--color {
+    color: green;
+}
+
+.formulario__legend--bg {
+    background-color: red;
+  }
+  
+  .formulario__label--size {
+    font-size: 50px;
+  }
+  
+  .formulario__label--font{
+    font-family: fantasy;
+  }
+  
+  .formulario__titulo--bg {
+    background-color: lightcoral;
+  }
+
+  .tabla--bg {
+      background-color: greenyellow;
+  }
+
+  .seccion__titulo--color{
+      color: chocolate;
+  }
+  .header__titulo--bordes {
+      border:solid 3px indigo;
+  }
+
+// CIERRE BEM
+
+
+$alto: 300px;
+$ancho: 700px;
+$bgcolor1: rgb(62, 62, 80);
+$bgcolor2: rgb(114, 114, 192);
+$color1: rgb(195, 195, 223);
+$tamanio: 50px;
+
+.operacionesSass {
+    height: $alto+200;
+}
+
+.uno {
+    // background-color: $bgcolor1;
+    width: $ancho+90;
+    float: left;
+
+
+}
+
+.dos{
+    // background-color: $bgcolor2;
+    width: $ancho;
+    float: right;
+}
+
+.imagenConstruccion {
+    background-size: cover;
+}
+
+.pieDeImagen{
+   color: $color1;
+   font-size: $tamanio+10;
+}
+
+.fraseBienvenida1 {
+    margin-left: 30px;
+    height: $alto - 200;
+    background-color: $bgcolor2;
+    text-align: center;
+    width: $ancho;
+}
+
+.fraseBienvenida2{
+    color: $color1;
+   font-size: $tamanio;
+}
+
+.seccionContacto1{
+    height: $alto - 100;
+    // background-color: $bgcolor1;
+    line-height: 200px;
+    color: $color1;
+    font-size: $tamanio - 20;
+
+  }
+
+//   BUCLE
+.bucle {
+    // background-color: black; 
+    height: 100px;
+    color: rgb(50, 59, 59);
+    // width: 180px;
+    border: 10px rgb(50, 59, 59) solid; 
+text-align: center;}
+
+ @for $i from 1 through 5 {
+     .bucle#{$i} {
+         width: 100px * $i;
+     }
+ }
+
+// FIN BUCLE
+
+// EACH
+
+$sizes: 
+20px,
+35px,
+50px,
+35px,
+20px;
+
+@each $size in $sizes {
+   .size#{$size} {
+       font-size: $size;
+
+   }
+}
+
+// FIN EACH
+
+
+// MAPS
+
+$maps: (
+    map1: cursive,
+    map2: monospace,
+    map3: fantasy,
+    map4: serif,
+    map5: sans-serif,
+    
+);
+
+@each $map, $font in $maps {
+    .font#{$map} {
+         font-family: $font;
+    }
+
+}
+
+// FIN MAPS
+
+    }
+/* fin @media all and (min-width: 1023px) */
+
